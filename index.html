@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Welcome to Your Hotel</h1>
+            <p>Experience luxury like never before.</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href=" #services">Services</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    
+    <section class="overview" id="services">
+        <h2>Our Services</h2>
+        <p>Explore a range of services tailored for your comfort and luxury.</p>
+        <div class="services-list">
+            <div class="service-item">
+                <img src="asset/image/bank biulding.jpg" alt="Spa & Wellness">
+                <h3>Spa & Wellness</h3>
+                <p>Relax with our rejuvenating spa treatments.</p>
+            </div>
+            <div class="service-item">
+                <img src="asset/image/u7.jpg " alt="Gourmet Dining">
+                <h3>Gourmet Dining</h3>
+                <p>Enjoy exquisite meals prepared by top chefs.</p>
+            </div>
+            <div class="service-item">
+                <img src="asset/image/t5.jpg" alt="Conference Halls">
+                <h3>Conference Halls</h3>
+                <p>State-of-the-art conference facilities.</p>
+            </div>
+            <div class="service-item">
+                <img src="asset/image/wter1.jpg" alt="Swimming Pool">
+                <h3>Swimming Pool</h3>
+                <p>Unwind at our luxurious pool.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+
+    <section class="rooms" id="rooms">
+        <h2>Luxury Rooms</h2>
+        <p>Choose from our variety of beautifully designed rooms.</p>
+        <div class="rooms-list">
+            <div class="room-item">
+                <img src="asset/image/k7.jpg" alt="Deluxe Room">
+                <h3>Deluxe Room</h3>
+                <p>Spacious room with ocean view.</p>
+            </div>
+            <div class="room-item">
+                <img src="asset/image/k8.jpg" alt="Executive Suite">
+                <h3>Executive Suite</h3>
+                <p>For ultimate luxury and comfort.</p>
+            </div>
+            <div class="room-item">
+                <img src="asset/image/images (4).jpg" alt="Presidential Suite">
+                <h3>Presidential Suite</h3>
+                <p>Luxury redefined with modern amenities.</p>
+            </div>
+            <div class="room-item">
+                <img src="asset/image/images (3).jpg" alt="Standard Room">
+                <h3>Standard Room</h3>
+                <p>Comfortable stay at affordable prices.</p>
+            </div>
+        </div>
+        <button id="book-now">Book Now</button>
+    </section>
+    
+
+
+
+
+
+
+
+
+    <section class="booking">
+        <h2>Online Booking System</h2>
+        <p>Book your stay with us easily and quickly.</p>
+        <form id="booking-form">
+            <label for="room-type">Room Type:</label>
+            <select id="room-type" required>
+                <option value="" disabled selected>Select Room Type</option>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="executive">Executive Suite</option>
+                <option value="presidential">Presidential Suite</option>
+                <option value="standard">Standard Room</option>
+            </select>
+
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" required>
+
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="confirmation-message" class="hidden">
+            <p>Your booking has been confirmed!</p>
+        </div>
+    </section>
+
+
+
+
+
+    
+
+
+
+
+
+    <section class="amenities" id="amenities">
+        <h2>Amenities & Services</h2>
+        <p>Discover our range of amenities designed to make your stay enjoyable.</p>
+        <div class="amenities-list">
+            <div class="amenity-item">
+                <img src="asset/image/food1.jpg" alt="Restaurant">
+                <h3>Restaurant</h3>
+                <p>Enjoy fine dining with a variety of cuisines.</p>
+            </div>
+            <div class="amenity-item">
+                <img src="asset/image/wter1.jpg" alt="Pool">
+                <h3>Pool</h3>
+                <p>Relax and swim in our luxurious pool area.</p>
+            </div>
+            <div class="amenity-item">
+                <img src="asset/image/gym 1.jpg" alt="Gym">
+                <h3>Gym</h3>
+                <p>Stay fit with our state-of-the-art fitness center.</p>
+            </div>
+            <div class="amenity-item">
+                <img src="asset/image/house2.jpg" alt="Spa">
+                <h3>Spa</h3>
+                <p>Indulge in our rejuvenating spa treatments.</p>
+            </div>
+            <div class="amenity-item">
+                <img src="asset/image/schll1.jpg" alt="Events">
+                <h3>Events</h3>
+                <p>Host memorable events in our versatile event spaces.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="location-contact" id="location-contact">
+        <h2>Location & Contact Info</h2>
+        <p>Find us at our central location and get in touch with us for any queries or assistance.</p>
+        
+        <!-- Directions -->
+        <div class="directions">
+            <h3>Directions</h3>
+            <p>Our hotel is located at 123 Main Street, Cityville. You can easily reach us via public transport or car. Follow the directions on the map below.</p>
+        </div>
+        
+        <!-- Map -->
+        <div class="map">
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.5631234873097!2d-122.4085566846815!3d37.78583477975901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c1a697715%3A0x13e09c6659b730b!2s123%20Main%20St%2C%20San%20Francisco%2C%20CA%2094103!5e0!3m2!1sen!2sus!4v1617907557376!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"></iframe>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h3>Contact Us</h3>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="confirmation-message" class="hidden">
+                <p>Your message has been sent!</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="reviews" id="reviews">
+        <h2>Guest Reviews & Testimonials</h2>
+        <p>See what our guests have to say about their experience with us.</p>
+        <div class="reviews-list">
+            <div class="review-item">
+                <img src="asset/image/femi-falana-1424x802.jpg" alt="Guest 1">
+                <h3>John Doe</h3>
+                <p>"The stay was absolutely wonderful! The service was top-notch and the amenities were fantastic."</p>
+            </div>
+            <div class="review-item">
+                <img src="asset/image/lady5.jpg" alt="Guest 2">
+                <h3>Jane Smith</h3>
+                <p>"I loved every moment of my stay. The rooms were clean and the staff was extremely friendly."</p>
+            </div>
+            <div class="review-item">
+                <img src="asset/image/lady3.jpg" alt="Guest 3">
+                <h3>Emily Johnson</h3>
+                <p>"A perfect getaway spot. The location was great, and the food was delicious. Highly recommend!"</p>
+            </div>
+            <div class="review-item">
+                <img src="asset/image/face1.png" alt="Guest 4">
+                <h3>Michael Brown</h3>
+                <p>"Exceptional service and beautiful surroundings. It was a memorable experience for me and my family."</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="footer" id="contact">
+        <p>&copy; 2024 Your Hotel. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
